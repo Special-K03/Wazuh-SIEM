@@ -48,19 +48,16 @@ OS versions, hardware, and network prerequisites used.
 - **Network:** Manager reachable from agents; ports open as required
 - **Credentials and accounts:** Local admin / sudo access; Elasticsearch/Kibana user setup notes
 
-Screenshot:  
-![Prereqs screenshot](./screenshots/prereqs.png)
 
 What I'm doing:
-
-![OS Prep and Install](https://imgur.com/qF8OKyh)
 
 ---
 
 ## Installation and Configuration
 
 Each subsection below should includes the commands that were ran, notes explaining why, and screenshots.
-
+### 1. Adjust Elastic Search Count
+![OS Prep and Install](./Elasticsearchcount.png)
 ### 1. System updates and basic packages
 
 Commands:
