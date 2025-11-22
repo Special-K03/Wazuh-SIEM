@@ -1,10 +1,7 @@
 # Wazuh-SIEM
-Home build of WAZUH SIEM using Elastic and Kibana
 
-Short one-line summary of this project and its purpose.  
-**Example:** Wazuh SIEM home-lab deployment for network and endpoint monitoring using Elastic Stack.
+## Wazuh SIEM home-lab deployment for network and endpoint monitoring using Elastic Stack.
 
----
 
 ## Overview
 
