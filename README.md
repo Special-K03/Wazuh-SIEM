@@ -72,6 +72,25 @@ What I'm doing:
 ### 4. ElasticSearch GPG Key Add
 ![GPG Key](./images/ElasticsearchGPGkeyandrepo.png)
 
+### 4.1  Relocation of GPG Keys
+![GPG Key Relocation](./images/Relocating_keys_for_security.png)
+
+- For this section, the GPG keys were stored in a deprecated keyring, so changing them to a more secure directory was needed.
+
+---
+
+### 5. Wazuh Agent Install on 1st Client
+![1st Client](./images/wazuh-agent_sovereign.png)
+
+---
+
+### 6. MacOs Agent Install
+![MacOs Install](./images/macos_agent_install.png)
+
+- For the MacOs install, I referred to the Wazuh Fleet Manager for instructions, basically just copy and paste from there!
+
+---
+
 ### 1. System updates and basic packages
 
 Commands:
