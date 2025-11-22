@@ -32,7 +32,7 @@ Components and data flow of deployment.
 ### End Result  
 ![Completed SIEM w/ Endpoints](./images/completed_siem_with_2endpoints.png)
 
-- **The goal here is to establish security and monitoring for specific endpoints (ideally all) to detect and suspicious activity, and respond to it accordingly!**
+- **The goal here is to establish security and monitoring for specific endpoints (ideally all) to detect suspicious activity, and respond to it accordingly!**
 
 ---
 
@@ -41,7 +41,7 @@ Components and data flow of deployment.
 OS versions, hardware, and network prerequisites used.
 
 - **OS and versions:** e.g., Ubuntu 22.04 (Manager), Windows 10/11 (agents)
-- **Hardware (recommended minimum):** 4 vCPU, 8 GB RAM, 50 GB disk for small lab
+- **Hardware (recommended minimum):** 4 vCPU, 8 GB RAM, 50 GB disk for a small lab
 - **Network:** Manager reachable from agents; ports open as required
 - **Credentials and accounts:** Local admin / sudo access; Elasticsearch/Kibana user setup notes
 
