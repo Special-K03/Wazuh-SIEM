@@ -32,10 +32,10 @@ Components and data flow of deployment.
 - **Network and ports:** Documented subnets, firewall rules, and ports used (e.g., 1514/1515, 9200, 5601)
 - **Data flow:** How logs move from agents → manager → Elasticsearch → Kibana dashboards
 
-Screenshot:  
-![Architecture diagram placeholder](./screenshots/architecture-diagram.png)
+### End Result  
+![Completed SIEM w/ Endpoints](./images/completed_siem_with_2endpoints.png)
 
-Explain the diagram above and any design tradeoffs.
+- **The goal here is to establish security and monitoring for specific endpoints (ideally all) to detect and suspicious activity, and respond to it accordingly!**
 
 ---
 
@@ -55,9 +55,26 @@ What I'm doing:
 
 ## Installation and Configuration
 
-Each subsection below should includes the commands that were ran, notes explaining why, and screenshots.
-### 1. Adjust Elastic Search Count
-![OS Prep and Install](./Elasticsearchcount.png)
+## At the beginning of the project, I attempted to install and configure the SIEM solely from the command line. Below you'll see some of the process and steps I took, as well as the troubleshooting involved.
+
+### 1. Adjust Elastic Search Count on Host
+![OS Prep and Install](./images/Elasticsearchcount.png) 
+
+--- 
+
+### 2. Wazuh-Manager Install on Host
+![Wazuh-Manager Install](./images/Wazuh_manager_installation.png) 
+
+---
+
+### 3. Wazuh-Manager Enable on Host
+![Enable](./images/wazuh_manager_enabled.png)
+
+---
+
+### 4. ElasticSearch GPG Key Add
+![GPG Key](./images/ElasticsearchGPGkeyandrepo.png)
+
 ### 1. System updates and basic packages
 
 Commands:
